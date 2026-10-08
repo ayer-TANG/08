@@ -3,7 +3,7 @@
 - 记录时间：2026-10-08 21:01:00
 - 仓库：https://github.com/ayer-TANG/08
 - 分支：`comic`（上游 `origin/comic`）
-- 版本标记：`q08-comic-v1`（annotated tag）→ bae7985
+- 版本标记：`q08-comic-v1`（annotated tag，tag 对象 `bae7985`）→ commit `0065efa`
 - 涉及文件：`skills/ppt-make.md`
 
 ## 一、这次做了什么
@@ -14,7 +14,7 @@
 
 ## 二、分支与提交（均为实测命令输出）
 
-### 2.1 提交图（`git log --graph --oneline --decorate --all`）
+### 2.1 提交图（`git log --graph --oneline --decorate --all`，标签时点，不含本文档及其修订提交）
 
 ```
 * 0065efa (HEAD -> comic, tag: q08-comic-v1, origin/comic) feat(skill): ppt-make 加入热门卡通角色硬性要求（3.3 节）
@@ -96,7 +96,7 @@ GitHub 页面：
 - 与 main 对比：https://github.com/ayer-TANG/08/compare/main...comic
 - 标签列表：https://github.com/ayer-TANG/08/tags
 
-## 六、远端 ref 快照（`git ls-remote origin`）
+## 六、远端 ref 快照（`git ls-remote origin`，标签时点，不含本文档及其修订提交）
 
 ```
 fd4bf57e2977e76283713aad23b44eb4981a0301	HEAD
